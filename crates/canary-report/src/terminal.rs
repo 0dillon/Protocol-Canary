@@ -33,7 +33,7 @@ pub struct TerminalReporter;
 impl TerminalReporter {
     /// Renders a given [`ReportInput`] into a human-readable terminal-friendly string.
     ///
-    /// The generated report includes project and protocol metadata, detailed test results 
+    /// The generated report includes project and protocol metadata, detailed test results
     /// grouped by surface, a summary of skipped fixtures, and an overall compatibility decision.
     /// Any failures or errors are listed at the end with their associated details.
     ///
